@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granito", "Granito\Granito.csproj", "{521608C7-736F-43D5-A1A4-B412E321B080}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRetornoTaxaJuros", "Granito\ApiRetornoTaxaJuros.csproj", "{521608C7-736F-43D5-A1A4-B412E321B080}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
