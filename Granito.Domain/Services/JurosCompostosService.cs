@@ -34,7 +34,7 @@ namespace Granito.Domain.Services
                 valorfinal += Math.Truncate(100 *(valorfinal * taxaJuros.Valor ) + valorfinal * taxaJuros.Valor * taxaJuros.Valor) / 100;
             }
 
-            return new JurosCalculadoDTO(valorfinal);
+            return new JurosCalculadoDTO(Math.Round(valorfinal, 2));
         }
 
         public RepositorioGithubDTO RetornaUrlRepositorioGithub()

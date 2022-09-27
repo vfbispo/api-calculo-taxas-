@@ -25,11 +25,11 @@ namespace ApiCalculoJuros.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ActionName(nameof(CalculaJuros))]
         [HttpGet("calculajuros")]
-        public async Task<IActionResult> CalculaJuros()
+        public async Task<IActionResult> CalculaJuros([FromQuery] decimal valorInicial, int meses)
         {
             try
             {
-                var jurosCompostos = await _jurosCompostosService.CalculaJuros(100, 5);
+                var jurosCompostos = await _jurosCompostosService.CalculaJuros(valorInicial, meses);
                 return Ok(jurosCompostos);
             }
             catch (Exception ex)

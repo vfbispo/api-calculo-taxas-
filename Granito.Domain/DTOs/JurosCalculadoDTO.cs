@@ -8,11 +8,11 @@ namespace Granito.Domain.DTOs
 {
     public class JurosCalculadoDTO
     {
-        public decimal ValorFinal { get; set; }
+        public string ValorFinal { get; set; }
 
         public JurosCalculadoDTO(decimal valorFinal)
         {
-            ValorFinal = valorFinal;
+            ValorFinal = valorFinal.ToString("N2");
         }
 
     }
