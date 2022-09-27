@@ -10,18 +10,17 @@ using System.Threading.Tasks;
 
 namespace Granito.Domain.Services
 {
-    public class TaxasService : ITaxasService
+    public class CalculaJurosService : ICalculaJurosService
     {
-        private readonly TaxasConfigOptions _taxasConfigOptions;
 
-        public TaxasService(IOptions<TaxasConfigOptions> taxasConfigOptions)
+        public Task CalculaJuros(decimal valorInicial, int quantidadeMeses)
         {
-            _taxasConfigOptions = taxasConfigOptions.Value;
+            throw new NotImplementedException();
         }
 
-        public TaxasDTO RetornaTaxaDeJuros()
+        public Task<RepositorioGithubDTO> RetornaUrlRepositorioGithub()
         {
-            return new TaxasDTO(_taxasConfigOptions);
+            throw new NotImplementedException();
         }
     }
 }
