@@ -1,4 +1,4 @@
-﻿using Granito.Domain.Configurations;
+﻿using Granito.Domain.Configurations.ApiRetornoTaxaJuros;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -22,7 +22,7 @@ namespace ApiRetornoTaxaJuros.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ActionName(nameof(TaxaDeJuros))]
         [HttpGet()]
-        public async Task<IActionResult> TaxaDeJuros()
+        public IActionResult TaxaDeJuros()
         {
             try
             {

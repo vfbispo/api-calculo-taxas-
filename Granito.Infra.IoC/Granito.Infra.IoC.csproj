@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Granito.Domain\Granito.Domain.csproj" />
+    <ProjectReference Include="..\Granito.Services.WebService\Granito.Services.WebService.csproj" />
   </ItemGroup>
 
 </Project>

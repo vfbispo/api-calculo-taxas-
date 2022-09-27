@@ -1,4 +1,4 @@
-﻿using Granito.Domain.Configurations;
+﻿using Granito.Domain.Configurations.ApiRetornoTaxaJuros;
 using Granito.Domain.DTOs;
 using Granito.Domain.Interfaces.Services;
 using Microsoft.Extensions.Options;

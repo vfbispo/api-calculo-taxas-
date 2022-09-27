@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Granito.Domain.Configurations.ApiCalculoJuros;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,9 @@ namespace Granito.Domain.DTOs
     {
         public string Url { get; set; }
 
-        public RepositorioGithubDTO(string url)
+        public RepositorioGithubDTO(GithubRepositorioConfigOptions githubRepositorioConfigOptions)
         {
-            Url = url;
+            Url = githubRepositorioConfigOptions.Url;
         }
     }
 

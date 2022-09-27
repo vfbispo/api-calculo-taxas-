@@ -7,10 +7,10 @@ using System.Threading.Tasks;
 
 namespace Granito.Domain.Interfaces.Services
 {
-    public interface ICalculaJurosService
+    public interface IJurosCompostosService
     {
-        Task CalculaJuros(decimal valorInicial, int quantidadeMeses);
+        Task<JurosCalculadoDTO> CalculaJuros(decimal valorInicial, int quantidadeMeses);
 
-        Task<RepositorioGithubDTO> RetornaUrlRepositorioGithub();
+        RepositorioGithubDTO RetornaUrlRepositorioGithub();
     }
 }

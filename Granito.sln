@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Granito.Infra.IoC", "Granit
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Granito.Domain", "Granito.Domain\Granito.Domain.csproj", "{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiCalculoJuros", "ApiCalculoJuros\ApiCalculoJuros.csproj", "{2C9E13A4-1E4E-496E-9102-20FEEA206B13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculoJuros", "ApiCalculoJuros\ApiCalculoJuros.csproj", "{2C9E13A4-1E4E-496E-9102-20FEEA206B13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granito.Services.WebService", "Granito.Services.WebService\Granito.Services.WebService.csproj", "{CDEACAA0-4139-4996-8B98-71E64E4B60CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,10 @@ Global
 		{2C9E13A4-1E4E-496E-9102-20FEEA206B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C9E13A4-1E4E-496E-9102-20FEEA206B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C9E13A4-1E4E-496E-9102-20FEEA206B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -50,6 +56,7 @@ Global
 		{D7997280-44C2-4BB3-A4EB-1A0C1B353A96} = {9DA64542-3E33-4426-B52E-0ADF52E2C7AA}
 		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C} = {653FB45C-20F4-4136-8323-40BD4ACB1768}
 		{2C9E13A4-1E4E-496E-9102-20FEEA206B13} = {67633B4E-FD40-4A28-8247-5C7B073365F9}
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB} = {12835D51-6B5C-46EF-9A18-CDF3E087EA42}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B04D4BB-373E-4A06-8331-BCBA38484F92}
