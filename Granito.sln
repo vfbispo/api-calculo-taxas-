@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granito", "Granito\Granito.csproj", "{521608C7-736F-43D5-A1A4-B412E321B080}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRetornoTaxaJuros", "Granito\ApiRetornoTaxaJuros.csproj", "{521608C7-736F-43D5-A1A4-B412E321B080}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{12835D51-6B5C-46EF-9A18-CDF3E087EA42}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{67633B4E-FD40-4A28-8247-5C7B073365F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{653FB45C-20F4-4136-8323-40BD4ACB1768}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructures", "Infrastructures", "{9DA64542-3E33-4426-B52E-0ADF52E2C7AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granito.Infra.IoC", "Granito.Infra.IoC\Granito.Infra.IoC.csproj", "{D7997280-44C2-4BB3-A4EB-1A0C1B353A96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granito.Domain", "Granito.Domain\Granito.Domain.csproj", "{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,22 @@ Global
 		{521608C7-736F-43D5-A1A4-B412E321B080}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{521608C7-736F-43D5-A1A4-B412E321B080}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{521608C7-736F-43D5-A1A4-B412E321B080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7997280-44C2-4BB3-A4EB-1A0C1B353A96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7997280-44C2-4BB3-A4EB-1A0C1B353A96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7997280-44C2-4BB3-A4EB-1A0C1B353A96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7997280-44C2-4BB3-A4EB-1A0C1B353A96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{521608C7-736F-43D5-A1A4-B412E321B080} = {67633B4E-FD40-4A28-8247-5C7B073365F9}
+		{D7997280-44C2-4BB3-A4EB-1A0C1B353A96} = {9DA64542-3E33-4426-B52E-0ADF52E2C7AA}
+		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C} = {653FB45C-20F4-4136-8323-40BD4ACB1768}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B04D4BB-373E-4A06-8331-BCBA38484F92}
