@@ -12,7 +12,7 @@ namespace ApiCalculoJuros.Extensions
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Granito - Taxas",
+                    Title = "Granito - Juros compostos",
                     Description = "Granito - Taxas"
                 });
 
