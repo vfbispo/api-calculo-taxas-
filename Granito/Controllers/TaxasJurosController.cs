@@ -21,7 +21,7 @@ namespace ApiRetornoTaxaJuros.Controllers
         [ProducesResponseType(typeof(bool), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         [ActionName(nameof(TaxaDeJuros))]
-        [HttpGet("TaxaDeJuros")]
+        [HttpGet()]
         public async Task<IActionResult> TaxaDeJuros()
         {
             try
