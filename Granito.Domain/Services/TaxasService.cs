@@ -1,6 +1,7 @@
 ﻿using Granito.Domain.Configurations;
 using Granito.Domain.DTOs;
 using Granito.Domain.Interfaces.Services;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,9 +14,9 @@ namespace Granito.Domain.Services
     {
         private readonly TaxasConfigOptions _taxasConfigOptions;
 
-        public TaxasService(TaxasConfigOptions taxasConfigOptions)
+        public TaxasService(IOptions<TaxasConfigOptions> taxasConfigOptions)
         {
-            _taxasConfigOptions = taxasConfigOptions;
+            _taxasConfigOptions = taxasConfigOptions.Value;
         }
 
         public TaxasDTO RetornaTaxaDeJuros()
