@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRetornoTaxaJuros", "Granito\ApiRetornoTaxaJuros.csproj", "{521608C7-736F-43D5-A1A4-B412E321B080}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRetornoTaxaJuros", "Granito\ApiRetornoTaxaJuros.csproj", "{521608C7-736F-43D5-A1A4-B412E321B080}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{12835D51-6B5C-46EF-9A18-CDF3E087EA42}"
 EndProject
@@ -13,9 +13,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{653FB4
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructures", "Infrastructures", "{9DA64542-3E33-4426-B52E-0ADF52E2C7AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granito.Infra.IoC", "Granito.Infra.IoC\Granito.Infra.IoC.csproj", "{D7997280-44C2-4BB3-A4EB-1A0C1B353A96}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Granito.Infra.IoC", "Granito.Infra.IoC\Granito.Infra.IoC.csproj", "{D7997280-44C2-4BB3-A4EB-1A0C1B353A96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granito.Domain", "Granito.Domain\Granito.Domain.csproj", "{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Granito.Domain", "Granito.Domain\Granito.Domain.csproj", "{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiCalculoJuros", "ApiCalculoJuros\ApiCalculoJuros.csproj", "{2C9E13A4-1E4E-496E-9102-20FEEA206B13}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Granito.Services.WebService", "Granito.Services.WebService\Granito.Services.WebService.csproj", "{CDEACAA0-4139-4996-8B98-71E64E4B60CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5CFCC94E-4A54-430F-B4C3-51DC700F1DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Granito.Tests", "Granito.Tests\Granito.Tests.csproj", "{BC6170D7-2C1E-400F-B1E4-87864ABF6B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +43,18 @@ Global
 		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C9E13A4-1E4E-496E-9102-20FEEA206B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C9E13A4-1E4E-496E-9102-20FEEA206B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C9E13A4-1E4E-496E-9102-20FEEA206B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C9E13A4-1E4E-496E-9102-20FEEA206B13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC6170D7-2C1E-400F-B1E4-87864ABF6B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC6170D7-2C1E-400F-B1E4-87864ABF6B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC6170D7-2C1E-400F-B1E4-87864ABF6B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC6170D7-2C1E-400F-B1E4-87864ABF6B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +63,9 @@ Global
 		{521608C7-736F-43D5-A1A4-B412E321B080} = {67633B4E-FD40-4A28-8247-5C7B073365F9}
 		{D7997280-44C2-4BB3-A4EB-1A0C1B353A96} = {9DA64542-3E33-4426-B52E-0ADF52E2C7AA}
 		{BCDDDBBD-44E1-4FCF-AE57-AE33A249EE6C} = {653FB45C-20F4-4136-8323-40BD4ACB1768}
+		{2C9E13A4-1E4E-496E-9102-20FEEA206B13} = {67633B4E-FD40-4A28-8247-5C7B073365F9}
+		{CDEACAA0-4139-4996-8B98-71E64E4B60CB} = {12835D51-6B5C-46EF-9A18-CDF3E087EA42}
+		{BC6170D7-2C1E-400F-B1E4-87864ABF6B4C} = {5CFCC94E-4A54-430F-B4C3-51DC700F1DE4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1B04D4BB-373E-4A06-8331-BCBA38484F92}

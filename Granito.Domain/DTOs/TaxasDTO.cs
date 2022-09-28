@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Granito.Domain.Configurations.ApiRetornoTaxaJuros;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,9 @@ namespace Granito.Domain.DTOs
     {
         public decimal Valor { get; set; }
 
-        public TaxasDTO(decimal valor)
+        public TaxasDTO(TaxasConfigOptions taxasConfigOptions)
         {
-            Valor = valor;
+            Valor = taxasConfigOptions.Valor;
         }
     }
 }
